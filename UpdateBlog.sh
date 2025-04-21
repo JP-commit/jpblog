@@ -97,6 +97,25 @@ if ! git push origin master; then
 fi
 
 
+# Step 8: Push the public folder to the gh-pages branch using subtree split and force push
+echo "Deploying to GitHub gh-pages..."
+if git branch --list | grep -q 'gh-pages-deploy'; then
+    git branch -D gh-pages-deploy
+fi
+
+if ! git subtree split --prefix public -b gh-pages-deploy; then
+    echo "Subtree split failed."
+    exit 1
+fi
+
+if ! git push origin gh-pages-deploy:gh-pages --force; then
+    echo "Failed to push to gh-pages branch."
+    git branch -D gh-pages-deploy
+    exit 1
+fi
+
+git branch -D gh-pages-deploy
+
 
 #if ! git push origin main; then
 #    echo "Failed to push to main branch."
