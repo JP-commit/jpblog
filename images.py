@@ -3,13 +3,14 @@ import re
 import shutil
 
 # Paths
-posts_dir = "/home/jayaprakash/Documents/jpblog/content/posts/Blogs"
+posts_dir = "/home/jayaprakash/Documents/jpblog/content/posts/Blogs/"
 attachments_dir = "/home/jayaprakash/Documents/Obsidian/Awesome Vault/"
 static_images_dir = "/home/jayaprakash/Documents/jpblog/static/images/"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):
+        
         filepath = os.path.join(posts_dir, filename)
         
         with open(filepath, "r", encoding="utf-8") as file:
@@ -17,6 +18,7 @@ for filename in os.listdir(posts_dir):
         
         # Step 2: Find all image links in the format ![Image Description](/images/Pasted%20image%20...%20.png)
         images = re.findall(r'\[\[([^]]*\.png)\]\]', content)
+        print(images)
         
         # Step 3: Replace image links and ensure URLs are correctly formatted
         for image in images:
