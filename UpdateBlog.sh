@@ -87,14 +87,15 @@ fi
 # Step 7: Push all changes to the main branch
 echo "Deploying to GitHub Main..."
 
-if ! git push origin main; then
+if ! git push origin master; then
     echo "Initial push failed. Attempting to rebase and push again..."
-    git pull origin main --rebase
-    if ! git push origin main; then
-        echo "Failed to push to main branch after rebasing."
+    git pull origin master --rebase
+    if ! git push origin master; then
+        echo "Failed to push to master branch after rebasing."
         exit 1
     fi
 fi
+
 
 
 #if ! git push origin main; then
