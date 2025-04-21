@@ -8,6 +8,7 @@ cd "$SCRIPT_DIR"
 # Set variables for Obsidian to Hugo copy
 sourcePath="/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs"
 destinationPath="/home/jayaprakash/Documents/jpblog/content/posts"
+dash="/"
 
 # Set GitHub Repo
 myrepo="git@github.com:jp-commit/jpblog.git"

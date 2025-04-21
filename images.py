@@ -3,8 +3,8 @@ import re
 import shutil
 
 # Paths
-posts_dir = "/home/jayaprakash/Documents/jpblog/content/posts/Blogs/"
-attachments_dir = "/home/jayaprakash/Documents/Obsidian/Awesome Vault/"
+posts_dir = "/home/jayaprakash/Documents/jpblog/content/posts/"
+attachments_dir = "/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs/"
 static_images_dir = "/home/jayaprakash/Documents/jpblog/static/images/"
 
 # Step 1: Process each markdown file in the posts directory
