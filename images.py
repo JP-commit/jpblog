@@ -3,16 +3,16 @@ import re
 import shutil
 
 # Paths
-posts_dir = "/home/jayaprakash/Documents/jpblog/content/posts/"
-attachments_dir = "/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs/"
-static_images_dir = "/home/jayaprakash/Documents/jpblog/static/images/"
+posts_dir = r"/home/jayaprakash/Documents/jpblog/content/posts/"
+attachments_dir = r"/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs/"
+static_images_dir = r"/home/jayaprakash/Documents/jpblog/static/images/"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):
-        
+        print(1)
         filepath = os.path.join(posts_dir, filename)
-        
+        print(filepath)
         with open(filepath, "r", encoding="utf-8") as file:
             content = file.read()
         
