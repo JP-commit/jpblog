@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/1stblog/</loc>
+    <loc>https://jp-commit.github.io/jpblog/tags/1stblog/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/awesome-vault/blogs/blog-pipeline/</loc>
+    <loc>https://jp-commit.github.io/jpblog/posts/awesome-vault/blogs/blog-pipeline/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/blogs/blog-pipeline/</loc>
+    <loc>https://jp-commit.github.io/jpblog/posts/blogs/blog-pipeline/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/jpblog/</loc>
+    <loc>https://jp-commit.github.io/jpblog/tags/jpblog/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://jp-commit.github.io/jpblog/posts/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://jp-commit.github.io/jpblog/tags/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://jp-commit.github.io/jpblog/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/awesome-vault/2024-12-08/</loc>
+    <loc>https://jp-commit.github.io/jpblog/posts/awesome-vault/2024-12-08/</loc>
   </url><url>
-    <loc>/posts/awesome-vault/welcome/</loc>
+    <loc>https://jp-commit.github.io/jpblog/posts/awesome-vault/welcome/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://jp-commit.github.io/jpblog/categories/</loc>
   </url>
 </urlset>
