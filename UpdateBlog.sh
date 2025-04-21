@@ -10,7 +10,7 @@ sourcePath="/home/jayaprakash/Documents/Obsidian/Awesome Vault"
 destinationPath="/home/jayaprakash/Documents/jpblog/content/posts"
 
 # Set GitHub Repo
-myrepo="git@github.com:JP-commit/jpblog.git"
+myrepo="git@github.com:jp-commit/jpblog.git"
 
 # Check for required commands
 for cmd in git rsync python3 hugo; do
