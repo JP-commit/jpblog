@@ -86,29 +86,40 @@ fi
 
 # Step 7: Push all changes to the main branch
 echo "Deploying to GitHub Main..."
+
 if ! git push origin main; then
-    echo "Failed to push to main branch."
-    exit 1
+    echo "Initial push failed. Attempting to rebase and push again..."
+    git pull origin main --rebase
+    if ! git push origin main; then
+        echo "Failed to push to main branch after rebasing."
+        exit 1
+    fi
 fi
+
+
+#if ! git push origin main; then
+#    echo "Failed to push to main branch."
+#    exit 1
+#fi
 
 # Step 8: Push the public folder to the hostinger branch using subtree split and force push
-echo "Deploying to GitHub Hostinger..."
-if git branch --list | grep -q 'hostinger-deploy'; then
-    git branch -D hostinger-deploy
-fi
+#echo "Deploying to GitHub Hostinger..."
+#if git branch --list | grep -q 'hostinger-deploy'; then
+#    git branch -D hostinger-deploy
+#fi
 
-if ! git subtree split --prefix public -b hostinger-deploy; then
-    echo "Subtree split failed."
-    exit 1
-fi
+#if ! git subtree split --prefix public -b hostinger-deploy; then
+#    echo "Subtree split failed."
+#    exit 1
+#fi
 
-if ! git push origin hostinger-deploy:hostinger --force; then
-    echo "Failed to push to hostinger branch."
-    git branch -D hostinger-deploy
-    exit 1
-fi
+#if ! git push origin hostinger-deploy:hostinger --force; then
+#    echo "Failed to push to hostinger branch."
+#    git branch -D hostinger-deploy
+#    exit 1
+#fi
 
-git branch -D hostinger-deploy
+#git branch -D hostinger-deploy
 
 echo "All done! Site synced, processed, committed, built, and deployed."
 
