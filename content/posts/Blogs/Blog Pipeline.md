@@ -9,6 +9,17 @@ tags:
 # My First Blog
 
 
+## The Setup
+Create a new folder labeled _posts_. This is where you will add your blog posts
+
+### Install Hugo
+#### Prerequisites
+- Install Git  :  https://github.com/git-guides/install-git
+- Install Go: https://go.dev/dl/
+
+#### Install Hugo
+Link : https://gohugo.io/installation/
+
 ## Syncing obsidian and hugo
 
 ```
@@ -24,3 +35,9 @@ hugo server -t terminal
 
 
 !![Image Description](/images/Pasted%20image%2020241208233721.png)
+
+
+## Decoding
+!![Image Description](/images/Pasted%20image%2020250421235547.png)
+
+
