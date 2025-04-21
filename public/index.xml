@@ -9,6 +9,47 @@
     <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blogtitle</title>
+      <link>/posts/awesome-vault/blogs/blog-pipeline/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/awesome-vault/blogs/blog-pipeline/</guid>
+      <description>&lt;h1 id=&#34;my-first-blog&#34;&gt;My First Blog&lt;/h1&gt;
+&lt;h2 id=&#34;the-setup&#34;&gt;The Setup&lt;/h2&gt;
+&lt;p&gt;Create a new folder labeled &lt;em&gt;posts&lt;/em&gt;. This is where you will add your blog posts&lt;/p&gt;
+&lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;
+&lt;h4 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Git  :  [https://github.com/git-guides/install-git&lt;/li&gt;
+&lt;li&gt;Install Go: [https://go.dev/dl/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;install-hugo-1&#34;&gt;Install Hugo&lt;/h4&gt;
+&lt;p&gt;Link : &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;syncing-obsidian-and-hugo&#34;&gt;Syncing obsidian and hugo&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sync -av --delete &amp;#34;/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs&amp;#34; &amp;#34;/home/jayaprakash/Documents/jpblog/content/posts&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;hugo-server&#34;&gt;Hugo Server&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server -t terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;![[Pasted image 20241208233721.png]]&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;my-first-blog&#34;&gt;My First Blog&lt;/h1&gt;
+&lt;h2 id=&#34;the-setup&#34;&gt;The Setup&lt;/h2&gt;
+&lt;p&gt;Create a new folder labeled &lt;em&gt;posts&lt;/em&gt;. This is where you will add your blog posts&lt;/p&gt;
+&lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;
+&lt;h4 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Git  :  [https://github.com/git-guides/install-git&lt;/li&gt;
+&lt;li&gt;Install Go: [https://go.dev/dl/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;install-hugo-1&#34;&gt;Install Hugo&lt;/h4&gt;
+&lt;p&gt;Link : &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;syncing-obsidian-and-hugo&#34;&gt;Syncing obsidian and hugo&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sync -av --delete &amp;#34;/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs&amp;#34; &amp;#34;/home/jayaprakash/Documents/jpblog/content/posts&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;hugo-server&#34;&gt;Hugo Server&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server -t terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;![[Pasted image 20241208233721.png]]&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>blogtitle</title>
       <link>/posts/blogs/blog-pipeline/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
@@ -18,13 +59,38 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sync -av --delete &amp;#34;/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs&amp;#34; &amp;#34;/home/jayaprakash/Documents/jpblog/content/posts&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;hugo-server&#34;&gt;Hugo Server&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server -t terminal
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241208233721.png&#34;&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020241208233721.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
       <content>&lt;h1 id=&#34;my-first-blog&#34;&gt;My First Blog&lt;/h1&gt;
 &lt;h2 id=&#34;syncing-obsidian-and-hugo&#34;&gt;Syncing obsidian and hugo&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sync -av --delete &amp;#34;/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs&amp;#34; &amp;#34;/home/jayaprakash/Documents/jpblog/content/posts&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;hugo-server&#34;&gt;Hugo Server&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server -t terminal
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;!&lt;img alt=&#34;Image Description&#34; src=&#34;/images/Pasted%20image%2020241208233721.png&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;!&lt;img src=&#34;/images/Pasted%20image%2020241208233721.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/awesome-vault/2024-12-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/awesome-vault/2024-12-08/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/awesome-vault/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/awesome-vault/welcome/</guid>
+      <description>&lt;p&gt;This is your new &lt;em&gt;vault&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Make a note of something, [[create a link]], or try &lt;a href=&#34;https://help.obsidian.md/Plugins/Importer&#34;&gt;the Importer&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re ready, delete this note and make the vault your own.&lt;/p&gt;</description>
+      <content>&lt;p&gt;This is your new &lt;em&gt;vault&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Make a note of something, [[create a link]], or try &lt;a href=&#34;https://help.obsidian.md/Plugins/Importer&#34;&gt;the Importer&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re ready, delete this note and make the vault your own.&lt;/p&gt;
 </content>
     </item>
     
