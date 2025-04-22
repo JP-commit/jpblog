@@ -4,7 +4,7 @@ import shutil
 
 # Paths
 posts_dir = r"/home/jayaprakash/Documents/jpblog/content/posts/"
-attachments_dir = r"/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs/"
+attachments_dir = r"/home/jayaprakash/Documents/Obsidian/AwesomeVault/"
 static_images_dir = r"/home/jayaprakash/Documents/jpblog/static/images/"
 
 # Step 1: Process each markdown file in the posts directory
@@ -16,21 +16,27 @@ for filename in os.listdir(posts_dir):
         with open(filepath, "r", encoding="utf-8") as file:
             content = file.read()
         
+        
         # Step 2: Find all image links in the format ![Image Description](/images/Pasted%20image%20...%20.png)
-        images = re.findall(r'\[\[([^]]*\.png)\]\]', content)
-        
-        
+        #images = re.findall(r'\[\[([^]]*\.png)\]\]', content)
+        images = re.findall(r'!\[[^\]]*\]\(\.\/images\/([^\)]*\.png)\)', content)
+        print(images)
+
         # Step 3: Replace image links and ensure URLs are correctly formatted
         for image in images:
             # Prepare the Markdown-compatible link with %20 replacing spaces
-            markdown_image = f"![Image Description](./images/{image.replace(' ', '%20')})"
+            markdown_image = f"![Image Description](/images/{image.replace(' ', '%20')})"
             
             content = content.replace(f"[[{image}]]", markdown_image)
-            print(content)
+            
+            print(456)
             # Step 4: Copy the image to the Hugo static/images directory if it exists
             image_source = os.path.join(attachments_dir, image)
+            print(image_source)
             if os.path.exists(image_source):
+                print(1233)
                 shutil.copy(image_source, static_images_dir)
+                
 
         # Step 5: Write the updated content back to the markdown file
         with open(filepath, "w", encoding="utf-8") as file:

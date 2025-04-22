@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd "$(/home/jayaprakash/Documents/jpblog "${BASH_SOURCE[0]}")" && 
 cd "$SCRIPT_DIR"
 
 # Set variables for Obsidian to Hugo copy
-sourcePath="/home/jayaprakash/Documents/Obsidian/Awesome Vault/Blogs"
+sourcePath="/home/jayaprakash/Documents/Obsidian/AwesomeVault/Blogs"
 destinationPath="/home/jayaprakash/Documents/jpblog/content/posts"
 dash="/"
 

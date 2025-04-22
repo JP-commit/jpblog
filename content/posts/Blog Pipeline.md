@@ -34,10 +34,10 @@ hugo server -t terminal
 
 
 
-!![Image Description](./images/Pasted%20image%2020241208233721.png)
+![[Pasted image 20241208233721.png]]
 
 
 ## Decoding
-!![Image Description](./images/Pasted%20image%2020250421235547.png)
+![[Pasted image 20250421235547.png]]
 
 
