@@ -8,23 +8,21 @@
 <meta name="language" content="en" />
 <meta name="viewport" content="width=device-width" />
 <title>
-    Tags | JP&#39;s Blog
+    Content Graph | JP&#39;s Blog
 </title>
-<meta property="og:url" content="https://jp-commit.github.io/jpblog/tags/">
+<meta property="og:url" content="https://jp-commit.github.io/jpblog/graph/">
   <meta property="og:site_name" content="JP&#39;s Blog">
-  <meta property="og:title" content="Tags">
+  <meta property="og:title" content="Content Graph">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
 
 
-  <meta itemprop="name" content="Tags">
-  <meta itemprop="datePublished" content="2025-05-18T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-05-18T00:00:00+00:00">
+  <meta itemprop="name" content="Content Graph">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tags">
+  <meta name="twitter:title" content="Content Graph">
 
-<link rel="canonical" href="https://jp-commit.github.io/jpblog/tags/" /><link rel="alternate" type="application/rss&#43;xml" href="https://jp-commit.github.io/jpblog/tags/index.xml" />
+<link rel="canonical" href="https://jp-commit.github.io/jpblog/graph/" /><link rel="alternate" type="application/json" href="https://jp-commit.github.io/jpblog/graph/index.json" />
 
       <link
         rel="stylesheet"
@@ -48,7 +46,7 @@
   "@type": "WebPage",
   "copyrightNotice": "Jayaprakash",
   "description": "",
-  "headline": "Tags"
+  "headline": "Content Graph"
 }
 </script>
 
@@ -73,7 +71,7 @@
       >
     </li>
     <li>
-      <a href="/jpblog/graph/">Graph</a
+      <a aria-current="page" class="active" href="/jpblog/graph/">Graph</a
       >
     </li>
     </ul>
@@ -83,8 +81,23 @@
       </header>
       <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
         
-  <div class="flex flex-col space-y-6">
-  </div>
+  <article class="main">
+    <header>
+      <h1 class="!mb-1">Content Graph</h1>
+    </header>
+
+    
+
+
+    <section class="mt-8">
+      <content-network-graph
+  class="h-96"
+  data-endpoint="/jpblog/graph/index.json"
+  
+></content-network-graph>
+
+    </section>
+  </article>
 
       </main>
       <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">

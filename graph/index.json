@@ -1,0 +1,24 @@
+{
+  "graph": {
+    "/jpblog/posts/blog-pipeline/": {
+      "in": [],
+      "out": []
+    },
+    "/jpblog/posts/the-great-indian-obsession/": {
+      "in": [],
+      "out": []
+    }
+  },
+  "pages": {
+    "/jpblog/posts/blog-pipeline/": {
+      "permalink": "/jpblog/posts/blog-pipeline/",
+      "section": "posts",
+      "title": "Blogtitle"
+    },
+    "/jpblog/posts/the-great-indian-obsession/": {
+      "permalink": "/jpblog/posts/the-great-indian-obsession/",
+      "section": "posts",
+      "title": "The Great Indian Obsession"
+    }
+  }
+}
