@@ -10,7 +10,10 @@ tags:
 
 
 ## The Setup
-Create a new folder labeled _posts_. This is where you will add your blog posts
+Get the complete setup guide from "NetworkChuck".
+Video: https://www.youtube.com/watch?v=dnE7c0ELEH8
+Guide https://blog.networkchuck.com/posts/my-insane-blog-pipeline/
+
 
 ### Install Hugo
 #### Prerequisites
