@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jp-commit.github.io/jpblog/sitemap.xml

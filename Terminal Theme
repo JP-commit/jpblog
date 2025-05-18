@@ -93,7 +93,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Terminal"
-        logoHomeLink = "/"
+        logoHomeLink = "/jpblog"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
@@ -104,3 +104,4 @@ pagination.pagerSize = 5
           identifier = "showcase"
           name = "Showcase"
           url = "/showcase"
+
